@@ -1,0 +1,182 @@
+body {
+    main {
+        header {
+            .logo {
+                margin-left: 3%;
+            }
+
+            .menu {
+                display: flex;
+                color: #656871;
+                gap: 4%;
+                margin-left: 4%;
+
+                .acceuil a {
+                    text-decoration: none;
+                }
+
+                .Ateliers a {
+                    text-decoration: none;
+                }
+
+                .Contact a {
+                    text-decoration: none;
+                }
+
+            }
+
+        }
+
+
+
+        .surtitre {
+            .surtitre1 {
+                color: blue;
+                margin-left: 4%;
+            }
+
+        }
+
+        .titre {
+            .titre_of_hero {
+                font-weight: bold;
+                margin-left: 4%;
+                font-size: 140%;
+
+
+            }
+        }
+
+        .description {
+
+            .description_of_hero {
+                font-weight: 100%;
+                margin-left: 4%;
+            }
+        }
+
+        .button {
+            .button_hero button {
+                border-color: blueviolet;
+                background-color: blueviolet;
+                width: 60%;
+                height: 34px;
+                border-radius: 8px;
+                color: aliceblue;
+                margin-left: 5%;
+            }
+        }
+
+        .exemple {
+            background-color: #1B2340;
+            width: 90%;
+            height: 120px;
+            border-radius: 12px;
+
+            .one {
+                color: #5B4FD6;
+                padding-top: 4%;
+                padding-left: 5%;
+            }
+
+            .exemp {
+                color: aliceblue;
+                padding-left: 8%;
+
+            }
+
+            .two {
+                color: #5B4FD6;
+                padding-top: 4%;
+                padding-left: 5%;
+            }
+        }
+
+        nav { 
+            .ateliers {
+                padding-left: 4%;
+
+                .titre_atelier {
+                    font-weight: bold;
+                    font-size: 160%;
+                }
+
+
+                .structure {  background-color:rgb(169, 166, 166);
+                     border-radius: 12px;
+            
+
+                    .structure1 {
+                        display: flex;
+                        gap: 2%;
+
+                        .num1 {
+                            color: #5B4FD6;
+                        }
+
+                        .explication_structure {
+                            margin-top: -2%;
+                        }
+                    }
+
+                }
+
+                .couleurs {  background-color:rgb(169, 166, 166);
+                     border-radius: 12px;
+                     
+                    .couleurs1 {
+                        display: flex;
+                        gap: 2%;
+
+                        .num2 {
+                            color: #5B4FD6;
+                        }
+
+                    }}
+
+                    .mobile { 
+                     background-color:rgb(169, 166, 166);
+                     border-radius: 12px;
+                     
+                        .mobile1 {
+                            display: flex;
+                            gap: 2%;
+
+                            .num3 {
+                                color: #5B4FD6;
+                            }
+                        }
+
+                    }
+
+
+                }
+
+            }
+
+        }
+
+        footer{
+           margin-top: 18%;
+            .titre_footer{
+                font-weight: bold;
+                margin-left: 30%;
+            }
+            .expli_footer{
+                margin-left: 15%;
+            }
+        }
+    }
+
+
+    @media screen and( min-width: 376px){
+     body{
+        main{
+      .header{
+            display: flex;
+            flex-direction: row;
+        }
+            
+        }
+     }
+    }
